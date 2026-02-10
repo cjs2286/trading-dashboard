@@ -526,7 +526,3 @@ except Exception as e:
 st.caption("⏰ 60초 자동 새로고침")
 '''
 
-with open('/tmp/dashboard_app.py', 'w', encoding='utf-8') as f:
-    f.write(DASHBOARD_CODE)
-
-print("✅ 대시보드 코드 생성 완료 (오늘/누적 승률)")
